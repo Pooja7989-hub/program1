@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> User Registration Form </title>
+</head>
+<body>
+<h1> User Registration Form </h1>
+<form>
+<label for = "name" > Name: </label>
+<input type = "text" id = "name" name = "name" required>
+<br> <br>
+<label for = "email" > email: </label>
+<input type = "email" id = "email" name = "email" required>
+<br> <br>
+<label for = "phone" > phone: </label>
+<input type = "tel" id = "phone" name = "phone" >
+<br> <br>
+<label for = "Organization" > Organization: </label>
+<input type = "text" id = "Organization" name = "Organization">
+<br> <br>
+<label for = "attendence-type"> Attendence type:</label>
+<select id="attendence-type" name="attendence-type">
+<option value="general">General</option>
+<option value="VIP">VIP</option>
+<option value="speaker">speaker</option>
+<select>
+<br><br>
+<input type="Submit"value="Register"> 
+</form>
+</body>
+</html>
